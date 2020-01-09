@@ -22,10 +22,5 @@ namespace Game
         {
             targetSpriteController.SetPixelPosition(26.0f * x, 26.0f * y);
         }
-
-        public override void PrepareToRender()
-        {
-            SetTarget(SensibleMath.Range(-1, 1), SensibleMath.Range(-1, 1));
-        }
     }
 }
