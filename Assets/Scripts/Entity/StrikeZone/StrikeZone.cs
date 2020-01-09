@@ -6,6 +6,8 @@ namespace Game
 {
     public class StrikeZone : Entity
     {
+        public new readonly EntityType type = EntityType.StrikeZone;
+
         [SerializeField] private GameObject gridSprite;
         [SerializeField] private GameObject targetSprite;
 
